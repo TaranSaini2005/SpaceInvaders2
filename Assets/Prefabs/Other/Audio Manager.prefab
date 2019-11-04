@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6044697108899356404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6044697108899356405}
+  - component: {fileID: 6044697108899356410}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6044697108899356405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044697108899356404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6044697108899356410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044697108899356404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947de1b63d2dd0e4bb439c48c15db4a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Player Shoot
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 5e94b610ac994463bb21f494d1966f09, type: 3}
+    volume: 1
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Shield Pickup
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 257ad41856c414a4fa83c51d7778725c, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: DoubleTap Pickup
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 7b07aee220488467b9af20a390119eeb, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: HealthPack Pickup
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 544b7d9e8b4ea4950a292189118a3c0b, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Ship Hit
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 9fe330231cc2d4a01aa086aba00b09fd, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Rock Hit
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 3b9ec8e362eec47378dc741fd78a9555, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Alien Hit
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 34b722ffc09ef4831a89b6502cd42f7e, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Player Death
+    loop: 0
+    audioClip: {fileID: 8300000, guid: b47b48a76950e41edbf228b853955b07, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Theme
+    loop: 1
+    audioClip: {fileID: 8300000, guid: eb50ae4393eff6045bce387e13552be5, type: 3}
+    volume: 0.2
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: BossHit
+    loop: 0
+    audioClip: {fileID: 8300000, guid: b47b48a76950e41edbf228b853955b07, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Click
+    loop: 0
+    audioClip: {fileID: 8300000, guid: a765109e0e9954bbfbec6ff4a77c527b, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Boss Level
+    loop: 1
+    audioClip: {fileID: 8300000, guid: 76b53e46ff6ef6745931798de86f2bd4, type: 3}
+    volume: 0.2
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Menu
+    loop: 1
+    audioClip: {fileID: 8300000, guid: 63e2d732badada7439c476ac14746617, type: 3}
+    volume: 0.2
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Game Win
+    loop: 0
+    audioClip: {fileID: 8300000, guid: 524fb3698f9864ea4a953e57aefc11ad, type: 3}
+    volume: 0.2
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: Game Over
+    loop: 0
+    audioClip: {fileID: 8300000, guid: adcbbbae313cb40978e30faf82938987, type: 3}
+    volume: 0.2
+    pitch: 1
+    audioSource: {fileID: 0}
