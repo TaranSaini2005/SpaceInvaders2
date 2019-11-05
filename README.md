@@ -3,4 +3,4 @@ This project is my second attempt at creating a Space Invaders type game. The fi
 Space Invaders game. After graduating I wanted to use the experience I had gained to re-create this game, hoping to improve on 
 my first project, and is the reason why this game is titled Space Invaders 2.
 
-To view code that I have written go to: Assests/scripts.
+To view code that I have written go to: Assets/scripts.
